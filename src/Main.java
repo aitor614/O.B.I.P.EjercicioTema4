@@ -21,5 +21,12 @@ public class Main {
             System.out.println(numeroWhile);
             numeroWhile = numeroWhile + 1;
         }
+
+        System.out.println("--------------- \n BUCLE DO WHILE");
+
+        do {
+            System.out.println(numeroDoWhile);
+            numeroDoWhile = numeroDoWhile + 1;
+        } while (numeroDoWhile == 0);
     }
 }
